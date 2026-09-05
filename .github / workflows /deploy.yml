@@ -1,9 +1,11 @@
 name: Deploy WebApp01
 
-on:
+n:
   push:
     branches:
       - main
+  workflow_dispatch:
+
 
 jobs:
   deploy:
